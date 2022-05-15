@@ -64,12 +64,14 @@ class App extends Component {
     );
 
     return (
-    <>
+      <>
+        <Section>
         <Header>
-          <Logo />
+            <Logo />
         </Header>
+
       <main>
-      <Section>
+      
         <Container>
           <h1 className={styles.title}>Find contacts by name</h1>
           <Phonebook onSubmit={this.onFormSubmit} />
@@ -83,8 +85,9 @@ class App extends Component {
             onDeleteContact={this.deleteContact}
         />
         </Container>
-      </Section>
-      </main>  
+
+        </main>  
+        </Section>
     </>
     );
   }

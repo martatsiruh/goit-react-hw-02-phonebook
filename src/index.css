@@ -18,27 +18,38 @@ h1,
 h2,
 h3,
 h4,
+h5,
+h6,
+p,
+button,
 ul,
-li,
-p {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-a {
-  text-decoration: none;
+ol,
+li {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul {
+  padding-left: 0;
   list-style: none;
-  padding: 0px;
-  margin: 0px;
 }
 
+img,
+a, 
+svg {
+  display: block;
+}
+
+.button {
+  border: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+}
 

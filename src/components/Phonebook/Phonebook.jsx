@@ -42,7 +42,8 @@ class Phonebook extends Component {
                 <input
                     className={styles.input}
                     type="text"
-                    name="name"
+                        name="name"
+                        placeholder="Name"
                     value={this.state.name}
                     id={this.nameInputId}
                     onChange={this.handleChange}
@@ -54,7 +55,8 @@ class Phonebook extends Component {
                     <input
                         className={styles.input}
                         type="tel"
-                        name="number"
+                        name="Contact number"
+                        placeholder="Enter phone number"
                         pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\{1,4}[-.\s]?\d{1,9}"
                         title="Phone number must be digits and can contain spaces,dashes, parentheses and can start with +"
                         required
