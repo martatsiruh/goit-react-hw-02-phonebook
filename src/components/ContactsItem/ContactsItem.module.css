@@ -1,3 +1,15 @@
+.item {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    min-width: 170px;
+}
+
 .button {
     position: relative;
     background: none;
@@ -26,3 +38,4 @@
 .button:is(:hover, :focus)::after {
     transform: scale(1);
 }
+

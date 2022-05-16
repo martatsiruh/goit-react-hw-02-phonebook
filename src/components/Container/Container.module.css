@@ -1,3 +1,8 @@
 .container {
+    padding-bottom: 25px;
+}
+
+.container:first-child {
     padding-top: 25px;
 }
+
