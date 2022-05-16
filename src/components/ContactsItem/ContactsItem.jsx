@@ -6,9 +6,9 @@ const ContactsItem = ({ id, name, number, onDeleteContact }) => {
   return (
     <li className={styles.item}>
       <div className={styles.wrapper}>
-        <span className={styles.decoration}></span>
         <p className={styles.text}>
           {name}: <span className={styles.number}>{number}</span>
+          <span className={styles.decoration}></span>
         </p>
       </div>
       <button

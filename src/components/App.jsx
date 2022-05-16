@@ -78,7 +78,7 @@ class App extends Component {
           </Container>
           
         <Container>
-          <h2>Contacts</h2>
+          <h2 className={styles.title}>Contacts</h2>
           <Filter value={filter} onChange={this.changeFilter} />
           <ContactsList
             contacts={visibleContacts}
